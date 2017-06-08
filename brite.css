@@ -1,21 +1,4 @@
-.case-study-block.bg-block.bg-block-bottom-left,
-.case-study-block.bg-block.bg-block-bottom-right,
-.case-study-block.bg-block,
-.case-study-block.bg-block.bg-block-top-right,
-.case-study-block.bg-block.bg-block-top-left {
-    top: -3px;
-    right: 9px;
-    left: 0;
-    transform: rotate(-2.2deg);
-        max-height: 150px;
-}
-
-.case-study {
-    margin-bottom: 42px;
-    padding: 25px 0px;
-}
-
-.case-study-wrap {
+/*.case-study-wrap {
     transition: transform .5s cubic-bezier(.215, .61, .355, 1),
                 box-shadow .5s cubic-bezier(.215, .61, .355, 1);
                     transform-style: preserve-3d;
@@ -23,26 +6,28 @@
     -webkit-backface-visibility: hidden;
 }
 
-.case-study:hover .case-study-wrap {
+.case-study-wrap:hover {
+        
+
     transform: scale(1.01);
+
 }
 
 .case-study-block.bg-block {
-    transition: top .4s cubic-bezier(0.165, 0.84, 0.44, 1),
-                bottom .4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    transition: top .8s cubic-bezier(0.165, 0.84, 0.44, 1),
+                bottom .8s cubic-bezier(0.165, 0.84, 0.44, 1),
                 rotate .8s cubic-bezier(0.165, 0.84, 0.44, 1)
                 
 }
 
-.case-study:hover .case-study-wrap .case-study-block.bg-block.bg-block-top-right {
-    top: 15px;
-    transform: rotate(-0.5deg);
+.case-study-wrap:hover .case-study-block.bg-block.bg-block-top-right {
+    top: 10px;
 }
 
-.case-study:hover .case-study-wrap .case-study-block.bg-block {
-    transform: rotate(-0.5deg);
+.case-study-wrap:hover .case-study-block.bg-block {
+    transform: rotate(0);
 }
-
+*/
 
 .head .div-block {
     margin-top:0px;
